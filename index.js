@@ -12,6 +12,8 @@ function nowServing(katzDeliLine){
   } else {
     let nam = katzDeliLine[0]
   katzDeliLine.shift()
+  //ERROR: checks for array condition before checking for return String
+  // instructions have the opposite order
   return "Currently serving " + nam +"."
 
  
