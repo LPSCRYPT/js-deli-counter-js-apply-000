@@ -7,7 +7,7 @@ function takeANumber(line, name){
 }
 
 function noeServing(katzDeliLine){
-  
+  if (katzDeliLine === [])
   return katzDeliLine[0]
   katz.DeliLine.shift()
 }
