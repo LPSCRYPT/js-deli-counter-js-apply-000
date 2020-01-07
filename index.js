@@ -6,7 +6,7 @@ function takeANumber(line, name){
   return `Welcome, ${name}. You are number ${line} in line.`
 }
 
-function noeServing(katzDeliLine){
+function nowServing(katzDeliLine){
   if (katzDeliLine.length === 0){
     return "There is nobody waiting to be served!"
   } else {
