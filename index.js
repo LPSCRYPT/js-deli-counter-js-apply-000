@@ -26,7 +26,7 @@ function currentLine(line){
   for (let i = 0; i < line.length; i++){
     str = str + `${i+1}. ${line[i]}`
     if (line.length !== i + 1){
-      str = str + ','
+      str = str + ', '
     }
   }
   
