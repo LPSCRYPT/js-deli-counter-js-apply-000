@@ -1,9 +1,9 @@
 function takeANumber(line, name){
   
   
-  console.log(line)
-  line++
-  return `Welcome, ${name}. You are number ${line} in line.`
+  
+  
+  return `Welcome, ${name}. You are number ${line.length+1} in line.`
 }
 
 function nowServing(katzDeliLine){
